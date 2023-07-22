@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Favicons-->
+    <link rel="icon" type="image/png" href="fav.ico">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/37d9dcc306.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="leftdiv"><img src="manishlogo.png" alt=""></div>
+            <div class="rightdiv">
+                <ul>
+                    <li> <a href="#home"> Home</a></li>
+                    <li> <a href="#about"> About</a></li>
+                    <li> <a href="#skills"> Skills</a></li>
+                    <li> <a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                <p id="firstParagraph">Hello, my name is </p>
+                <span class="purple">Manish Yadav</span>
+                <div id="secondParagraph">And I'm a passionate</div>
+                <span id="element"></span> <br>
+                <a id="dowloadCV" href="/">Dowload CV</a>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr class="mainHr">
+        <section class="secondSection" id="about">
+
+            <h1 class="H1">About Me</h1>
+
+            <hr class="otherHr">
+
+            <p class="paragraph"><span class="purple">I'm Mansih Yadav</span> Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Illo explicabo, nam quisquam maiores magnam
+                perspiciatis rerum totam. Quaerat veritatis temporibus, eveniet iste magni unde aspernatur. Officiis
+                saepe fugiat exercitationem ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos deserunt
+                non modi nihil quibusdam dicta exercitationem saepe nam sit. Rerum numquam, illo praesentium vel aliquam
+                quos delectus sint in voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                accusamus illo tenetur expedita quaerat corrupti error quidem a temporibus, rerum delectus placeat
+                recusandae illum laudantium officiis, similique blanditiis. Quasi, est.</p>
+
+        </section>
+
+        <hr class="mainHr">
+
+        <section class="thirdSection" id="skills">
+
+            <h1 class="H1">My skills</h1>
+
+            <hr class="otherHr" id="skillmargin">
+
+            <div class="mianDiv">
+                <div class="child1"> <img src="skills.png" alt=""> </div>
+                <div class="child2">
+                    <div class="bar">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="line" id="html1"></div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                    </div>
+                    <div class="line" id="css1"></div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>50%</span>
+                        </div>
+                    </div>
+                    <div class="line" id="js1"></div>
+                    <div class="bar">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>70%</span>
+                        </div>
+                    </div>
+                    <div class="line" id="java1"></div>
+                </div>
+            </div>
+
+
+        </section>
+        <hr class="mainHr">
+        <section class="fourSection" id="contact">
+            <h1 id="heading">Contact Me</h1>
+
+            <hr class="otherHr">
+
+
+
+            <div class="hero">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="number" required>
+                        <label for="number"><i class="fa-solid fa-square-phone"></i> Phone No.</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email"><i class="fas fa-envelope"></i> Email Id</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="massage" rows="8" required></textarea>
+                        <label for="massage"><i class="fas fa-comments"></i> Your Message</label>
+                    </div>
+                    <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+
+                </form>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p id="Copyright">Copyright @2023 all right reserved by Manish</p>
+        </footer>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
